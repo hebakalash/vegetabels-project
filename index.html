@@ -1,11 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fruitables-vegetable</title>
+    <link rel="stylesheet" href="./hb.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  الشريط الاخضر القسم 1 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            class="p-2"
+            style="
+              background-color: rgba(134, 211, 40, 0.988);
+              height: 50px;
+              width: 100%;
+
+              border-top-right-radius: 10px;
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+              border-bottom-right-radius: 10px;
+            "
+          >
+            <span class="ms-5">
+              <i class="fa-solid fa-location-dot" style="color: #ffb83d"></i>
+              <a href="#" style="color: aliceblue; text-decoration: none">
+                123 street' New York</a
+              >
+            </span>
+            <span class="ms-3">
+              <i class="fa-solid fa-envelope" style="color: #ffb83d"></i>
+              <a href="#" style="color: aliceblue; text-decoration: none">
+                Email@Example.com</a
+              ></span
+            >
+            <span class="ms-2"
+              ><a href="#" class="float-end ms-1 a1"
+                >sales and refunds
+              </a></span
+            >
+            <span class="ms-2"
+              ><a href="#" class="float-end ms-1 a1"
+                >terms of use <span class="ms-1">/</span></a
+              ></span
+            >
+            <span class="ms-2"
+              ><a href="#" class="float-end ms-1 a1"
+                >privacy <span class="ms-1">/</span></a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- القسم الثاني الناف بار  -->
+
+    <div class="navbar fixed-top bg-light navbar-expand-lg">
+      <div class="container-fluid" style="height: 80px">
+        <a
+          href="#"
+          class="navbar-brand ms-5"
+          style="
+            color: rgba(134, 211, 40, 0.988);
+            font-weight: 900;
+            font-size: 50px;
+          "
+        >
+          Fruitables</a
+        >
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#off-canvas-navbar"
+        >
+          <span
+            class="navbar-toggler-icon"
+            style="
+              background-color: rgba(134, 211, 40, 0.988);
+              color: rgba(134, 211, 40, 0.988);
+            "
+          >
+          </span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="off-canvas-navbar"
+        >
+          <div class="offcanvas-header">
+            <a
+              href="#"
+              class="offcanvas-title"
+              style="
+                color: rgba(134, 211, 40, 0.988);
+                font-weight: 900;
+                font-size: 50px;
+                text-decoration: none;
+              "
+            >
+              Fruitables</a
+            >
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+          <div class="offcanvas-body justify-content-center">
+            <ul class="navbar-nav justify-content-center flex grow-1 pe-3">
+              <li class="nav-itmes ms-4">
+                <a href="#" class="nav-link" style="color: chartreuse">home </a>
+              </li>
+              <li class="nav-itmes ms-4">
+                <a href="#" class="nav-link a3">shop </a>
+              </li>
+              <li class="nav-itmes ms-4">
+                <a href="#" class="nav-link a3">shop detail </a>
+              </li>
+              <li class="nav-itmes ms-4 dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle a3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item a2">cart</a></li>
+                  <li><a href="#" class="dropdown-item a2">chackout</a></li>
+                  <li><a href="#" class="dropdown-item a2">testimonial</a></li>
+                  <li><a href="#" class="dropdown-item a2">404 pages</a></li>
+                </ul>
+              </li>
+              <li class="nav-itmes ms-4">
+                <a href="#" class="nav-link a3"> contact</a>
+              </li>
+            </ul>
+            <div class="ms-5">
+              <span class="mt-2">
+                <a
+                  href="#"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#my-modal"
+                >
+                  <i
+                    class="fa-solid fa-magnifying-glass i1"
+                    style="
+                      color: rgba(134, 211, 40, 0.988);
+                      border: 2px, solid, #ffb83d;
+                      border-radius: 50%;
+                      font-size: 20px;
+                      padding: 10px;
+                    "
+                  ></i> </a
+              ></span>
+              <div
+                class="modal fade"
+                id="my-modal"
+                tabindex="-1"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content" style="opacity: 75%">
+                    <div class="modal-header">
+                      <h2>search by keyword</h2>
+                      <button
+                        type="button"
+                        class="btn btn-close"
+                        data-bs-toggle="modal"
+                        data-bs-target="#my-modal"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+                        <div class="input-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="keyword"
+                          />
+                          <button class="btn btn-secondary" type="submit">
+                            <i class="fa-solid fa-magnifying-glass i1"></i>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <span class="ms-3 float-end">
+                <a href="#"
+                  ><i
+                    class="fa-solid fa-bag-shopping fa-xl"
+                    style="color: rgba(134, 211, 40, 0.988)"
+                  ></i></a
+              ></span>
+              <span class="ms-3 float-end">
+                <a href="#"
+                  ><i
+                    class="fa-solid fa-user fa-xl"
+                    style="color: rgba(134, 211, 40, 0.988)"
+                  ></i></a
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  القسم الثالث  header -->
+    <div class="container-fluid">
+      <div
+        class="row"
+        style="
+          height: 500px;
+          background-image: url('./vegetable-item-4.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div class="col-md-6 d-flex flex-column justify-content-center ps-5">
+          <h3 class="text-warning" style="color: #ffb83d">
+            100% Organic Foods
+          </h3>
+          <h1
+            style="
+              color: rgba(134, 211, 40, 0.988);
+              font-weight: 800;
+              font-size: 60px;
+            "
+          >
+            Organic Veggies & Fruits Foods
+          </h1>
+          <form class="mt-4">
+            <div
+              class="input-group"
+              style="
+                border: 2px solid #ffb83d;
+                border-radius: 30px;
+                overflow: hidden;
+                width: 80%;
+              "
+            >
+              <input
+                type="text"
+                class="form-control border-0 shadow-none"
+                placeholder="Search"
+              />
+              <button
+                class="btn text-white"
+                type="submit"
+                style="
+                  background-color: rgba(134, 211, 40, 0.988);
+                  padding: 10px 25px;
+                "
+              >
+                Submit Now
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+          <div
+            id="slides-with-controls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            style="width: 90%; border-radius: 15px; padding: 15px"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  style="background-color: #ffb83d"
+                  src="./hero-img-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="./img/hero-img-2.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#slides-with-controls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                style="
+                  background-color: rgba(134, 211, 40, 0.988);
+                  border-radius: 50%;
+                "
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#slides-with-controls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                style="
+                  background-color: rgba(134, 211, 40, 0.988);
+                  border-radius: 50%;
+                "
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
