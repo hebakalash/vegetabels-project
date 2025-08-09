@@ -6,10 +6,7 @@ background-color:#ffb83d !important;
 color: chartreuse !important;
 
 }
-.a1{
-color: aliceblue !important;
- text-decoration: none !important;
-}
+
 .a3{
     color: black !important;
 }
@@ -50,4 +47,10 @@ border-radius: 10px;
 .a4:hover{
 color: black !important ;
 background-color: #ffb83d;
+}
+
+
+.a1{
+color: aliceblue !important;
+ text-decoration: none !important;
 }
