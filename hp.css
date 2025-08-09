@@ -1,0 +1,53 @@
+.a1:hover{
+color:#ffb83d !important;
+}
+.a2:hover{
+background-color:#ffb83d !important;
+color: chartreuse !important;
+
+}
+.a1{
+color: aliceblue !important;
+ text-decoration: none !important;
+}
+.a3{
+    color: black !important;
+}
+.a3:hover{
+color: chartreuse !important;
+
+}
+.i1:hover{
+background-color:#ffb83d !important  ;
+
+}
+.b1:hover{
+background-color: #ffb83d !important;
+color: aliceblue !important;
+
+}
+.zoom-container {
+border-radius: 10px;
+  overflow: hidden;
+
+}
+.zoom-container img{
+  transition: transform 0.5s ease;
+}
+.zoom-container:hover img {
+  transform: scale(1.2);
+}
+.sh{
+    box-shadow: 1px 1px 1px black;
+}
+.sh:hover{
+    box-shadow: 1px 5px 15px black;
+
+
+
+}
+
+.a4:hover{
+color: black !important ;
+background-color: #ffb83d;
+}
